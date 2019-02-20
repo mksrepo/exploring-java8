@@ -5,7 +5,7 @@ import java.util.List;
 
 import edu.j8.pojo.Student;
 
-public class TestDrive {
+public class ComaratorTestDrive {
 
 	public static void main(String[] args) {
 
