@@ -1,9 +1,9 @@
-package com.apart.user.compare;
+package edu.j8.compare;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.apart.pojo.Student;
+import edu.j8.pojo.Student;
 
 public class TestDrive {
 

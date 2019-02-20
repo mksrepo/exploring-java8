@@ -1,6 +1,6 @@
-package com.apart.user.compare;
+package edu.j8.compare;
 
-import com.apart.pojo.Student;
+import edu.j8.pojo.Student;
 
 public class StudentComparator {
 

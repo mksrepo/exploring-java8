@@ -1,4 +1,4 @@
-package com.apart.pojo;
+package edu.j8.pojo;
 
 public class Student {
 
