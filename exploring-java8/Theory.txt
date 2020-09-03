@@ -1,0 +1,30 @@
+LAMBDA EXPRESSION
+=================
+* Lambda Expression is here to achieve Functional Programming
+* Lambda Expression is Anonymous Function
+* Anonymous Function
+    * Nameless
+    * No return type
+    * No modifier
+* Return keyword comes with curly-braces
+* Anonymous inner-class having single abstract method could be replaced by Lambda Expression.
+
+FUNCTIONAL INTERFACE
+====================
+* @FunctionalInterface impose rules of Functional Interface
+* Functional Interface contains single Abstract method
+* Functional Interface contains any number of default and static method
+* To invoke Lambda Expression, Functional Interface is required
+
+
+DEFAULT METHOD
+==============
+* Also know as "Virtual Extension Method" and "Defender Method"
+* Without modifying implementation class, Default Method allows to add new features to Interface
+* default becomes as public in implementation class
+
+STATIC METHOD
+=============
+* Static method by default is not available in implementation class
+* This feature is to allow utility Interface instead Class, where all methods are static
+*
