@@ -33,7 +33,10 @@ class LinkedList {
     }
 
     void remove(Integer value) {
+
+        // IF head is target THEN
         if(head.data==value){
+            // head will point head-next
             head=head.next;
             return;
         }
@@ -69,7 +72,7 @@ public class LinkedListRunner {
         list.add(6);
         list.add(3);
 
-        list.remove(5);
+        list.remove(3);
 
         list.show();
     }
