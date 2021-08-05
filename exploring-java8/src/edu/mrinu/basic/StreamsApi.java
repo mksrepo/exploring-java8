@@ -1,4 +1,4 @@
-package edu.j8.basic;
+package edu.mrinu.basic;
 
 public class StreamsApi {
 
