@@ -38,17 +38,26 @@ class LinkedList {
         if(head.data==value){
             // head will point head-next
             head=head.next;
+            // AND stop
             return;
         }
 
+        // previous node is head
         Node preNode = head;
+        // current node is head-next
         Node currentNode = head.next;
+        // traverse util current node is null
         while(currentNode!=null) {
+            // IF current-data is value THEN
             if(currentNode.data==value) {
+                // pre-next is current-next
                 preNode.next = currentNode.next;
+                // AND stop
                 break;
             }
+            // pre is current
             preNode = currentNode;
+            // current is current-next
             currentNode = currentNode.next;
         }
     }
